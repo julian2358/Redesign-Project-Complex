@@ -4,6 +4,7 @@ import Home from './home.js';
 import Nav from './nav.js'
 import Footer from './footer.js'
 import Top from './topstories.js'
+import Shoes from './shoes.js'
 // react routing 
 //do not touch
 
@@ -19,7 +20,7 @@ function Container(location) {
           <Route exact path="/" component={Home} />
           <Route exact path="/music" component={Top} />
           <Route exact path="/contact" component={Footer} />
-          <Route exact path="/shoes" component={Nav} />
+          <Route exact path="/shoes" component={Shoes} />
           <Route exact path="/clothes" component={Footer} />
         </Switch>
        
