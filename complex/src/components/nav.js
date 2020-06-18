@@ -10,7 +10,7 @@ class Nav extends React.Component {
                 <nav id="navbar">
                 <div className="container">
                     <h1 className="navLogo">
-                    <img className="navLogo" src='./public/imgs/complex_nbiphu.jpg'></img>
+                    <img className="navLogo" src='./imgs/complex_nbiphu.jpg'></img>
                     </h1>
                     <ul>
                         <li><NavLink to="/" exact> Home</NavLink></li>

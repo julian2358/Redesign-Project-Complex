@@ -6,7 +6,7 @@ class Footer extends React.Component {
         return (
             <div>
             <footer className="mainFooter">
-                <img className="footerLogo" src="../images/complex_nbiphu.jpg" alt="COMPLEX"></img>
+                <img className="footerLogo" src="./imgs/complex_nbiphu.jpg" alt="COMPLEX"></img>
                 <p className="copyRight">©COMPLEX</p>
                     <SocialIcon url="https://www.facebook.com/" className="facebook" />
                     <SocialIcon url="http://twitter.com/" className="twitter" />
