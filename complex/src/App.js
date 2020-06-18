@@ -6,6 +6,7 @@ import Nav from './components/nav.js'
 import { render } from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Container from './components/container.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => (
   <Router>

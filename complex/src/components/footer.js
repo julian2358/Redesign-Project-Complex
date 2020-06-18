@@ -14,11 +14,13 @@ class Footer extends React.Component {
                     <SocialIcon url="https://www.youtube.com/" className="youtube" />
                 <div className="footerForm">
                         <form>
-                        <h3>Send us a message!</h3>
+                           
+                        
                         <label className="nameArea">Name:</label><input></input>
                         <label className="emailArea">Email:</label><input></input>
                         <label className="textArea">Message:</label><textarea></textarea>
                         <button type="submit" className="formBtn">Submit</button>
+                        
                     </form>
                 </div>
             </footer>

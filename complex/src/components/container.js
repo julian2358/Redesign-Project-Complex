@@ -3,7 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import Home from './home.js';
 import Nav from './nav.js'
 import Footer from './footer.js'
-
+import Top from './topstories.js'
 // react routing 
 //do not touch
 
@@ -17,7 +17,7 @@ function Container(location) {
         <Switch>
    
           <Route exact path="/" component={Home} />
-          <Route exact path="/music" component={Nav} />
+          <Route exact path="/music" component={Top} />
           <Route exact path="/contact" component={Footer} />
           <Route exact path="/shoes" component={Nav} />
           <Route exact path="/clothes" component={Footer} />

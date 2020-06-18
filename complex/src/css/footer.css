@@ -3,6 +3,7 @@ html,body {
     margin:0;
     padding:0;
     overflow:auto;
+   
 }
 .mainFooter{
     display: flex;
@@ -41,6 +42,7 @@ html,body {
 .footerForm{
     padding: 5px;
     padding-right: 50px;
+  
 }
 .emailArea{
     padding-left: 10px;
@@ -66,3 +68,4 @@ html,body {
     background-color: white;
     color: black;
 }
+
