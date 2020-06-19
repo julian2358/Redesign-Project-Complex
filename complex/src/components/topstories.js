@@ -41,7 +41,7 @@ export default function MediaCard() {
           </Typography>
 
           <Typography variant="body2" color="textSecondary" component="p2">
-            By Jordan Rose
+            BY JORDAN ROSE
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -59,16 +59,48 @@ export default function MediaCard() {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image={process.env.PUBLIC_URL + '/imgs/nba.jpeg'}
+          image={process.env.PUBLIC_URL + '/imgs/chance.jpg'}
           title="Contemplative Reptile"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Lizard
+            Music
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
+          <Typography variant="body2" color="textPrimary" component="h1">
+          J. Cole's "Snow on tha Bluff" Critiqued by Chance the Rapper, Earl Sweatshirt, and More
+          </Typography>
+          <Typography variant="body2" color="textSecondary" component="p2">
+            BY JOE PRICE
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+        <Button size="small" color="primary">
+          Share
+        </Button>
+        <Button size="small" color="primary">
+          Learn More
+        </Button>
+      </CardActions>
+    </Card>
+{/*  */}
+
+<Card className={classes.root}>
+      <CardActionArea>
+        <CardMedia
+          className={classes.media}
+          image={process.env.PUBLIC_URL + '/imgs/jason.jpg'}
+          title="Contemplative Reptile"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+            Pop Culture
+          </Typography>
+          <Typography variant="body2" color="textPrimary" component="h1">
+          Jason Momoa Shares First Look at 'Justice League' Snyder Cut
+          </Typography>
+          <Typography variant="body2" color="textSecondary" component="p2">
+            BY JOE PRICE
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -88,16 +120,18 @@ export default function MediaCard() {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image={process.env.PUBLIC_URL + '/imgs/nba.jpeg'}
+          image={process.env.PUBLIC_URL + '/imgs/bee.jpg'}
           title="Contemplative Reptile"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Lizard
+            Music
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
+          <Typography variant="body2" color="textPrimary" component="h1">
+          Theory That Beethoven Was Black Leads to Glorious Memes on Twitter
+          </Typography>
+          <Typography variant="body2" color="textSecondary" component="p2">
+            BY JOE PRICE
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -117,44 +151,18 @@ export default function MediaCard() {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image={process.env.PUBLIC_URL + '/imgs/nba.jpeg'}
+          image={process.env.PUBLIC_URL + '/imgs/matthew.jpg'}
           title="Contemplative Reptile"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Lizard
+            Style
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
+          <Typography variant="body2" color="textPrimary" component="h1">
+          How Matthew M. Williams Became Givenchy's Creative Director
           </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
-          Learn More
-        </Button>
-      </CardActions>
-    </Card>
-
-    {/*  */}
-    <Card className={classes.root}>
-      <CardActionArea>
-        <CardMedia
-          className={classes.media}
-          image={process.env.PUBLIC_URL + '/imgs/nba.jpeg'}
-          title="Contemplative Reptile"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            Lizard
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
+          <Typography variant="body2" color="textSecondary" component="p2">
+          BY MIKE DESTEFANO
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -174,16 +182,18 @@ export default function MediaCard() {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image={process.env.PUBLIC_URL + '/imgs/nba.jpeg'}
+          image={process.env.PUBLIC_URL + '/imgs/june.jpeg'}
           title="Contemplative Reptile"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Lizard
+            Life
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
+          <Typography variant="body2" color="textPrimary" component="h1">
+          Juneteenth: The 155-Year History of America's Other Holiday
+          </Typography>
+          <Typography variant="body2" color="textSecondary" component="p2">
+          BY KEVIN L. CLARK
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -196,35 +206,13 @@ export default function MediaCard() {
         </Button>
       </CardActions>
     </Card>
+
+
 
     {/*  */}
 
-    <Card className={classes.root}>
-      <CardActionArea>
-        <CardMedia
-          className={classes.media}
-          image={process.env.PUBLIC_URL + '/imgs/nba.jpeg'}
-          title="Contemplative Reptile"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            Lizard
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
-          Learn More
-        </Button>
-      </CardActions>
-    </Card>
+    
+
     </div>
   );
 }

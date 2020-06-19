@@ -17,7 +17,7 @@ class Nav extends React.Component {
                         <li><NavLink to="/music" exact> Music</NavLink></li>
                         <li><a>Complex</a></li>
                         <li><NavLink to="/shoes" exact> Shoes</NavLink></li>
-                        <li><NavLink to="/clothes" >Clothes</NavLink></li>
+                        <li><NavLink to="/clothes" >Style</NavLink></li>
                         <li><NavLink to="/contact">Contact Us</NavLink> </li>
                     </ul>
                 </div>
