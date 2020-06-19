@@ -3,6 +3,26 @@ import '../css/home.css'
 import Nav from './nav.js';
 import Footer from './footer.js';
 import Top from './topstories.js';
+import { createMuiTheme } from '@material-ui/core/styles';
+
+const theme = createMuiTheme({
+    palette: {
+      primary: {
+        light: '#757ce8',
+        main: '#3f50b5',
+        dark: '#002884',
+        contrastText: '#fff',
+      },
+      secondary: {
+        light: '#ff7961',
+        main: '#f44336',
+        dark: '#ba000d',
+        contrastText: '#000',
+      },
+    },
+  });
+
+
 export default class Home extends React.Component{
     render(){
     return(
@@ -20,7 +40,16 @@ export default class Home extends React.Component{
             </div>
             </div>
            
+
+      
+
+
         </div>
+        <div className='top-container'>
+
+        <Top />
+        </div>
+
             <Footer />
         </div>
     )
