@@ -10,12 +10,13 @@
     flex-wrap: wrap;
 }
 
-
+.kithSneaker{
+    width: 800px;
+}
 .right{
     width: 400px;
-    margin-left: 150px;
+    padding-left: 100px;
     margin-top: 92px;
-    text-align: center;
     line-height: 1;
 } 
 
