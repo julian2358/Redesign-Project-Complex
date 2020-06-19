@@ -1,0 +1,60 @@
+.box {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+/* .box>* {
+    flex: 80px;
+} */
+
+.blueShoe{
+    height: 150px;
+    width: 200px;
+}
+
+.multiShoe{
+    height: 150px;
+    width: 200px;
+}
+
+.redShoe{
+    height: 150px;
+    width: 200px;
+}
+
+.blackShoe{
+    height: 150px;
+    width: 200px;
+}
+
+.greenShoe{
+    height: 150px;
+    width: 200px;
+}
+
+.whiteBlackRedShoe{
+    height: 150px;
+    width: 200px;
+}
+
+.whiteRedShoe{
+    height: 150px;
+    width: 200px;
+}
+
+.orangeBrownShoe{
+    height: 150px;
+    width: 200px;
+}
+
+.brownShoe{
+    height: 340px;
+    width: 250px;
+}
+
+.gravityShoe{
+    width: 300px;
+    height: 400px
+}
