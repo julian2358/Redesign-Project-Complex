@@ -1,60 +1,139 @@
+.headArticle{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+    border-bottom: 3px solid black;
+}
+.topArticles{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.right{
+    width: 400px;
+    margin-left: 150px;
+    margin-top: 92px;
+    text-align: center;
+    line-height: 1;
+} 
+
+.georgiaTech{
+    width: 400px;
+    height:500px;
+}
 .box {
-    height: 400px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    padding-top: 5px;
+    padding-left: 5px;
     padding-bottom: 10px;
 }
-/* .box>* {
-    flex: 80px;
-} */
 
+.blueBox{
+    width: 200px;
+    height: 300px;
+}
 .blueShoe{
     height: 150px;
     width: 200px;
 }
 
+.multiBox{
+    width: 200px;
+    height: 200px;
+}
 .multiShoe{
     height: 150px;
     width: 200px;
 }
 
+.redBox{
+    width: 200px;
+    height: 300px;
+}
 .redShoe{
     height: 150px;
     width: 200px;
 }
 
+.blackBox{
+    width: 200px;
+    height: 200px;
+}
 .blackShoe{
     height: 150px;
     width: 200px;
 }
 
+.greenBox{
+    width: 200px;
+    height: 300px;
+}
 .greenShoe{
     height: 150px;
     width: 200px;
 }
 
+.whiteBlackRedBox{
+    width: 200px;
+    height: 200px;
+}
 .whiteBlackRedShoe{
     height: 150px;
     width: 200px;
 }
 
+.whiteRedBox{
+    width: 200px;
+    height: 300px;
+}
 .whiteRedShoe{
     height: 150px;
     width: 200px;
 }
 
+.orangeBrownBox{
+    width: 200px;
+    height: 200px;
+}
 .orangeBrownShoe{
     height: 150px;
     width: 200px;
 }
 
+.brownBox{
+    width: 250px;
+    height: 400px;
+}
 .brownShoe{
     height: 340px;
     width: 250px;
 }
 
+.gravityBox{
+    height: 400px;
+    width: 300px;
+    line-height: 1;
+}
 .gravityShoe{
     width: 300px;
     height: 400px
+}
+
+.articleBy{
+    font-weight: bold;
+}
+
+
+.adChoice{
+    height:15px;
+    width: 15px;
+}
+.adChoiceSpan{
+    background: rgba(0,0,0,0.1);
+    font-size: 10px;
 }
