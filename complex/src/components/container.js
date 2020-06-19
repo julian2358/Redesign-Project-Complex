@@ -18,7 +18,7 @@ function Container(location) {
         <Switch>
    
           <Route exact path="/" component={Home} />
-          <Route exact path="/music" component={Top} />
+          <Route exact path="/music" component={Home} />
           <Route exact path="/contact" component={Footer} />
           <Route exact path="/shoes" component={Shoes} />
           <Route exact path="/clothes" component={Footer} />

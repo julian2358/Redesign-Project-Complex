@@ -9,6 +9,7 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import '../css/card.css';
 
+
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
@@ -16,7 +17,16 @@ const useStyles = makeStyles({
   media: {
     height: 140,
   },
+  selector: { 
+  "&:hover": {
+    color: '#34c9eb',
+
+    
   
+  }
+  
+},
+
 });
 
 export default function MediaCard() {
@@ -24,7 +34,7 @@ export default function MediaCard() {
 
   return (
       <div className ='card-container'>
-    <Card className={classes.root}>
+    <Card className={classes.root} style={{ backgroundColor: "#a1edcb" }}>
       <CardActionArea>
         <CardMedia
           className={classes.media}
@@ -33,29 +43,29 @@ export default function MediaCard() {
         />
         <CardContent>
             
-          <Typography gutterBottom variant="h5" component="h2">
+          <Typography style={{fontWeight: 'bolder' }} gutterBottom variant="h5" component="h2">
             Sports
           </Typography>
-          <Typography variant="body2" color="textPrimary" component="h1">
+          <Typography style={{ fontWeight: 'bolder' }} variant="body2" color="textPrimary" component="h1">
           Here's the 'Smart Ring' NBA Players Will Wear to Monitor COVID-19 Symptoms While in Orlando
           </Typography>
 
-          <Typography variant="body2" color="textSecondary" component="p2">
+          <Typography style={{ color: 'white', fontWeight: 'bold', textShadow: '2px 1px darkgrey' }}variant="body2" color="textSecondary" component="p2">
             BY JORDAN ROSE
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button className={classes.selector}  style={{ border: '2px solid white', backgroundColor: 'white' }} size="small" color="primary">
           Share
         </Button>
-        <Button size="small" color="primary">
+        <Button className={classes.selector}   style={{ border: '2px solid white', backgroundColor: 'white' }}size="small" color="primary" > 
           Learn More
         </Button>
       </CardActions>
     </Card>
 {/*  */}
-<Card className={classes.root}>
+<Card className={classes.root} style={{ backgroundColor: "#a1d2ed" }}>
       <CardActionArea>
         <CardMedia
           className={classes.media}
@@ -63,29 +73,29 @@ export default function MediaCard() {
           title="Contemplative Reptile"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+          <Typography style={{fontWeight: 'bolder' }} gutterBottom variant="h5" component="h2">
             Music
           </Typography>
-          <Typography variant="body2" color="textPrimary" component="h1">
+          <Typography style={{ fontWeight: 'bolder' }} variant="body2" color="textPrimary" component="h1">
           J. Cole's "Snow on tha Bluff" Critiqued by Chance the Rapper, Earl Sweatshirt, and More
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p2">
+          <Typography style={{ color: 'white', fontWeight: 'bold', textShadow: '2px 1px darkgrey' }} variant="body2" color="textSecondary" component="p2">
             BY JOE PRICE
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button className={classes.selector}  style={{ border: '2px solid white', backgroundColor: 'white' }} size="small" color="primary">
           Share
         </Button>
-        <Button size="small" color="primary">
+        <Button className={classes.selector} style={{ border: '2px solid white', backgroundColor: 'white' }}size="small" color="primary">
           Learn More
         </Button>
       </CardActions>
     </Card>
 {/*  */}
 
-<Card className={classes.root}>
+<Card className={classes.root} style={{ backgroundColor: '#caa1ed' }}>
       <CardActionArea>
         <CardMedia
           className={classes.media}
@@ -93,22 +103,22 @@ export default function MediaCard() {
           title="Contemplative Reptile"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+          <Typography style={{fontWeight: 'bolder' }} gutterBottom variant="h5" component="h2">
             Pop Culture
           </Typography>
-          <Typography variant="body2" color="textPrimary" component="h1">
+          <Typography style={{ fontWeight: 'bolder' }} variant="body2" color="textPrimary" component="h1">
           Jason Momoa Shares First Look at 'Justice League' Snyder Cut
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p2">
+          <Typography style={{ color: 'white', fontWeight: 'bold', textShadow: '2px 1px darkgrey' }} variant="body2" color="textSecondary" component="p2">
             BY JOE PRICE
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button className={classes.selector}  style={{ border: '2px solid white', backgroundColor: 'white' }} size="small" color="primary">
           Share
         </Button>
-        <Button size="small" color="primary">
+        <Button className={classes.selector} style={{ border: '2px solid white', backgroundColor: 'white' }}size="small" color="primary">
           Learn More
         </Button>
       </CardActions>
@@ -116,7 +126,7 @@ export default function MediaCard() {
 
     {/*  */}
 
-    <Card className={classes.root}>
+    <Card className={classes.root} style={{ backgroundColor: '#eda1a1' }}>
       <CardActionArea>
         <CardMedia
           className={classes.media}
@@ -124,22 +134,22 @@ export default function MediaCard() {
           title="Contemplative Reptile"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+          <Typography style={{fontWeight: 'bolder' }} gutterBottom variant="h5" component="h2">
             Music
           </Typography>
-          <Typography variant="body2" color="textPrimary" component="h1">
+          <Typography style={{ fontWeight: 'bolder' }} variant="body2" color="textPrimary" component="h1">
           Theory That Beethoven Was Black Leads to Glorious Memes on Twitter
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p2">
+          <Typography style={{ color: 'white', fontWeight: 'bold', textShadow: '2px 1px darkgrey' }} variant="body2" color="textSecondary" component="p2">
             BY JOE PRICE
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button className={classes.selector} style={{ border: '2px solid white', backgroundColor: 'white' }} size="small" color="primary">
           Share
         </Button>
-        <Button size="small" color="primary">
+        <Button className={classes.selector} style={{ border: '2px solid white', backgroundColor: 'white' }}size="small" color="primary">
           Learn More
         </Button>
       </CardActions>
@@ -147,7 +157,7 @@ export default function MediaCard() {
 
     {/*  */}
 
-    <Card className={classes.root}>
+    <Card className={classes.root} style={{ backgroundColor: '#e9eda1' }}>
       <CardActionArea>
         <CardMedia
           className={classes.media}
@@ -155,22 +165,22 @@ export default function MediaCard() {
           title="Contemplative Reptile"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+          <Typography style={{fontWeight: 'bolder' }} gutterBottom variant="h5" component="h2">
             Style
           </Typography>
-          <Typography variant="body2" color="textPrimary" component="h1">
+          <Typography style={{ fontWeight: 'bolder' }} variant="body2" color="textPrimary" component="h1">
           How Matthew M. Williams Became Givenchy's Creative Director
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p2">
+          <Typography style={{ color: 'white', fontWeight: 'bold', textShadow: '2px 1px darkgrey' }} variant="body2" color="textSecondary" component="p2">
           BY MIKE DESTEFANO
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button className={classes.selector} style={{ border: '2px solid white', backgroundColor: 'white' }} size="small" color="primary">
           Share
         </Button>
-        <Button size="small" color="primary">
+        <Button className={classes.selector} style={{ border: '2px solid white', backgroundColor: 'white' }}size="small" color="primary">
           Learn More
         </Button>
       </CardActions>
@@ -178,7 +188,7 @@ export default function MediaCard() {
 
     {/*  */}
 
-    <Card className={classes.root}>
+    <Card className={classes.root} style={{ backgroundColor: '#f5c338' }}>
       <CardActionArea>
         <CardMedia
           className={classes.media}
@@ -186,22 +196,22 @@ export default function MediaCard() {
           title="Contemplative Reptile"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+          <Typography style={{fontWeight: 'bolder' }} gutterBottom variant="h5" component="h2">
             Life
           </Typography>
-          <Typography variant="body2" color="textPrimary" component="h1">
+          <Typography style={{ fontWeight: 'bolder' }} variant="body2" color="textPrimary" component="h1">
           Juneteenth: The 155-Year History of America's Other Holiday
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p2">
+          <Typography style={{ color: 'white', fontWeight: 'bold', textShadow: '2px 1px darkgrey' }} variant="body2" color="textSecondary" component="p2">
           BY KEVIN L. CLARK
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button className={classes.selector} style={{ border: '2px solid white', backgroundColor: 'white' }} size="small" color="primary">
           Share
         </Button>
-        <Button size="small" color="primary">
+        <Button className={classes.selector} style={{ border: '2px solid white', backgroundColor: 'white' }}size="small" color="primary">
           Learn More
         </Button>
       </CardActions>
