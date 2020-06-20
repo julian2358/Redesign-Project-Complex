@@ -8,7 +8,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import '../css/card.css';
-
+import { Grid, Image, Label, Segment } from 'semantic-ui-react'
 
 const useStyles = makeStyles({
   root: {
@@ -33,8 +33,13 @@ export default function MediaCard() {
   const classes = useStyles();
 
   return (
+  
+    
       <div className ='card-container'>
+       
+       
     <Card className={classes.root} style={{ backgroundColor: "#a1edcb" }}>
+      
       <CardActionArea>
         <CardMedia
           className={classes.media}
@@ -215,6 +220,7 @@ export default function MediaCard() {
           Learn More
         </Button>
       </CardActions>
+      
     </Card>
 
 
