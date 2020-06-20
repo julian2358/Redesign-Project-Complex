@@ -1,6 +1,22 @@
 import React, { Component } from 'react'
 import { Button, Icon, Modal } from 'semantic-ui-react'
 
+
+const sportbtn = {
+    border: '2px solid #d1e3ff',
+    backgroundColor: '#d1e3ff',
+    color: 'purple',
+    fontWeight: 'strongr',
+    borderRadius: '19px',
+    padding: '30px',
+    fontSize: '20px',
+
+    ":hover": {
+        backgroundColor: "#ff0000",
+        color: "#ffffff"
+      }
+}
+
 class NestedModal extends Component {
   state = { open: false }
 
@@ -12,7 +28,7 @@ class NestedModal extends Component {
 
     return (
         
-      <Modal
+      <Modal 
         open={open}
         onOpen={this.open}
         onClose={this.close}
@@ -20,6 +36,7 @@ class NestedModal extends Component {
         trigger={
             <button class="ui button">Multiple Modals</button>
         }
+        t
       >
         <Modal.Header>Modal #2</Modal.Header>
         <Modal.Content>
@@ -34,7 +51,7 @@ class NestedModal extends Component {
 }
 
 const ModalExampleMultiple = () => (
-  <Modal trigger={<Button>Multiple Modals</Button>}>
+  <Modal trigger={<Button style={sportbtn}>Sports</Button>}>
     <Modal.Header>Modal #1</Modal.Header>
     <Modal.Content image>
       <div className='image'>
