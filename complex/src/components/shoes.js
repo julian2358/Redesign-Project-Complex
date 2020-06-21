@@ -7,10 +7,10 @@ class Shoes extends React.Component{
         return(
             <div>
                 <Nav/>
+                <h1 id='main-header'> LATEST IN SNEAKERS</h1>
                 <div className="headArticle">
                     <div className="topArticles">
                         <div className="left">
-                        <h1 id='main-header'> LATEST IN SNEAKERS</h1>
                         <img className="kithSneaker" src="../imgs/shoeCollection.jpeg" alt="shoe collection"></img>
                         <p><span class="articleBy">SOLE COLLECTOR |</span>  BY JESSICA MCKINNEY</p>
                         <a href="https://www.complex.com/sneakers/best-kith-sneaker-collaborations/"><p>The Best Kith Sneaker Collaborations</p></a>
