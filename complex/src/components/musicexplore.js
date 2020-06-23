@@ -4,9 +4,17 @@ import { Embed } from 'semantic-ui-react'
 import { Comment, Form, Header } from 'semantic-ui-react';
 import Comments from './comments.js'
 import { Segment } from 'semantic-ui-react'
+
+const musichead = {
+    fontSize: '30px',
+    color: '#3493eb',
+    fontWeight: 'bolder',
+  
+  
+  }
 const sportbtn = {
     border: '2px solid #d1e3ff',
-    backgroundColor: '#ffd12b',
+    backgroundColor: '#3493eb',
     color: 'black',
     fontWeight: 'strongr',
     borderRadius: '19px',
@@ -18,6 +26,16 @@ const sportbtn = {
         color: "#ffffff"
       }
 }
+
+const seperate = {
+    color: 'black',
+    border: '2px solid purple',
+}
+
+const end = {
+  border: '3px solid black',
+}
+
 
 class NestedModal extends Component {
   state = { open: false }
@@ -40,7 +58,7 @@ class NestedModal extends Component {
         }
         t
       >
-        <Modal.Header>Modal #2</Modal.Header>
+        <Modal.Header>Song Of The Day</Modal.Header>
         <Modal.Content>
           <p>That's everything!</p>
         </Modal.Content>
@@ -53,14 +71,16 @@ class NestedModal extends Component {
 }
 
 const ModalExampleMultiple = () => (
-  <Modal trigger={<Button style={sportbtn}>Sports</Button>}>
-    <Modal.Header>Sports </Modal.Header>
+  <Modal trigger={<Button style={sportbtn}>Music</Button>}>
+    <Modal.Header style={musichead}>Music </Modal.Header>
     <Segment style={{overflow: 'auto', maxHeight: 500 }}>
     <Modal.Content>
       <div className='image'>
+        <h1 id='vid-header'>Video Of The Day</h1>
+        <hr style={seperate}/ >
       <Embed
-    id='pEtDAzfWtIE'
-    placeholder={process.env.PUBLIC_URL + '/imgs/nbaa.jpg'}
+    id='VDGysJGNoI'
+    placeholder='https://pmcvariety.files.wordpress.com/2020/06/lil-baby-the-bigger-picture-clean-no-text-copy-e1591971958390.jpg'
     source='youtube'
   />
       </div>
@@ -69,12 +89,11 @@ const ModalExampleMultiple = () => (
     <Comments />
   
       </Modal.Description>
+      <hr style={end}/ >
     </Modal.Content>
     </Segment>
     <Modal.Actions>
-    <Button primary>
-        Proceed <Icon name='right chevron' />
-      </Button>
+    
       <NestedModal />
     </Modal.Actions>
   </Modal>

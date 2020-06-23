@@ -5,8 +5,13 @@ import Footer from './footer.js';
 import Top from './topstories.js';
 import { createMuiTheme } from '@material-ui/core/styles';
 import Stats from './stats.js';
+import { Button, Divider, Form, Grid, Segment } from 'semantic-ui-react'
+import Music from './musicexplore.js';
+import Sports from './discover.js';
 
-
+const end = {
+    border: '3px solid black',
+  }
 const theme = createMuiTheme({
     palette: {
       primary: {
@@ -43,6 +48,7 @@ export default class Home extends React.Component{
             <Stats />
             
             </div>
+            <hr style={end}/>
            
         <div className='top-container2'>
             <div className='top-header'>
@@ -69,7 +75,22 @@ export default class Home extends React.Component{
             <img className="navLogo2" src='./imgs/complex_nbiphu.jpg'></img><h1 className='title'> Discover</h1>
             </div>
                 </div>
+
+                <Segment placeholder>
+    <Grid columns={2} relaxed='very' stackable>
+      <Grid.Column>
+      <Sports />
+      </Grid.Column>
+
+      <Grid.Column verticalAlign='middle'>
+        <Music />
+      </Grid.Column>
+    </Grid>
+
+    <Divider vertical>Or</Divider>
+  </Segment>
             </div>
+
 
             </div>
 
