@@ -20,10 +20,6 @@ const sportbtn = {
 }
 
 class NestedModal extends Component {
-//load data from api
- 
-
-
   state = { open: false }
 
   open = () => this.setState({ open: true })
@@ -32,9 +28,6 @@ class NestedModal extends Component {
   render() {
     const { open } = this.state
 
-   
-    
-    
     return (
         
       <Modal 
@@ -57,7 +50,6 @@ class NestedModal extends Component {
       </Modal>
     )
   }
-
 }
 
 const ModalExampleMultiple = () => (
@@ -77,13 +69,7 @@ const ModalExampleMultiple = () => (
     <Comments />
   
       </Modal.Description>
-     <div className='sport-container'>
-
-
-
-     </div>
     </Modal.Content>
-    
     </Segment>
     <Modal.Actions>
     <Button primary>
