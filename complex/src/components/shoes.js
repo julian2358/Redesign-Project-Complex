@@ -72,6 +72,15 @@ class Shoes extends React.Component{
                         <p><span className="adChoiceSpan"><img className="adChoice" src="../imgs/adChoicespng.png" alt="Ad Choices" />AdChoices </span>Enroll in our sweepstakes for a chance to win a pair of 'Nike Air Mag Back To The Future', Marty McFly replicas.</p>
                     </div>
                 </div>
+                <h1 id="main-header">Shows</h1>
+                <div className="videoComplex">
+                    
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/hoYol_EX9Jc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><p>Canelo Àlvarez Goes Sneaker Shopping With Complex</p></iframe>
+                
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/OSz9kkw2oic?start=0&end=220" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><h1>Jadakiss Shows Off More Than $60,000 Of Rare Sneakers on Complex Closets</h1></iframe>
+                <br/>
+                </div>
                 <Footer />
 
             </div>
