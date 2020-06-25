@@ -154,29 +154,33 @@ body{
 .videoComplex{
     padding-top: 5px;
     display: flex;
-    flex-direction: row;
-    /* flex-wrap: wrap; */
     justify-content: space-evenly
 }
 
 .canelloBox{
     flex-direction: row;
-    padding-right: 5px;
+    padding-left: 5px;
 }
 
- .canelloAlvarez{
-
-} 
 .jadaKissBox{
-    padding-left: 150px;
+    padding-left: 200px;
+}
+
+.cristianoRon{
+    padding-left: 5px;
 }
 
 .sliderArticle{
     padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
 }
 .sliderWriter{
     width: 300px;
 }
+
+
+
 
 
 @media (max-width: 800px){
