@@ -41,8 +41,9 @@ html,body {
     opacity: .6;
 }
 .footerForm{
-    padding: 5px;
+    /* padding: 5px; */
     padding-right: 50px;
+    padding-bottom: 5px;
   
 }
 .emailArea{
