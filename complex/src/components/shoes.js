@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/shoes.css';
 import Nav from '../components/nav';
+import ShoeCarousel from './shoeSlider';
 import Footer from '../components/footer';
 class Shoes extends React.Component{
     render(){
@@ -11,13 +12,13 @@ class Shoes extends React.Component{
                 <div className="headArticle">
                     <div className="topArticles">
                         <div className="left">
-                        <img className="kithSneaker" src="../imgs/shoeCollection.jpeg" alt="shoe collection"></img>
-                        <p><span class="articleBy">SOLE COLLECTOR |</span>  BY JESSICA MCKINNEY</p>
-                        <a href="https://www.complex.com/sneakers/best-kith-sneaker-collaborations/"><p>The Best Kith Sneaker Collaborations</p></a>
+                            <img className="kithSneaker" src="../imgs/shoeCollection.jpeg" alt="shoe collection"></img>
+                            <p><span class="articleBy">SOLE COLLECTOR |</span>  BY JESSICA MCKINNEY</p>
+                            <a href="https://www.complex.com/sneakers/best-kith-sneaker-collaborations/"><p>The Best Kith Sneaker Collaborations</p></a>
                         </div>
                         <div className="right">
-                        <img className="georgiaTech" src="../imgs/georgiaTech.jpeg" alt="Georgia Tech"></img>
-                        <p><span className="adChoiceSpan"><img className="adChoice" src="../imgs/adChoicespng.png" alt="Ad Choices" />AdChoices </span>Apply online now and earn a spot in our Sneaker Scholarship Program for an opportunity to recieve a full paid scholarship to Georga Institute of Technology</p>
+                            <img className="georgiaTech" src="../imgs/georgiaTech.jpeg" alt="Georgia Tech"></img>
+                            <p><span className="adChoiceSpan"><img className="adChoice" src="../imgs/adChoicespng.png" alt="Ad Choices" />AdChoices </span>Apply online now and earn a spot in our Sneaker Scholarship Program for an opportunity to recieve a full paid scholarship to Georga Institute of Technology</p>
                         </div>
                     </div>
                 </div>
@@ -74,13 +75,18 @@ class Shoes extends React.Component{
                 </div>
                 <h1 id="main-header">Shows</h1>
                 <div className="videoComplex">
-                    
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/hoYol_EX9Jc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><p>Canelo Àlvarez Goes Sneaker Shopping With Complex</p></iframe>
-                
-
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/OSz9kkw2oic?start=0&end=220" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><h1>Jadakiss Shows Off More Than $60,000 Of Rare Sneakers on Complex Closets</h1></iframe>
-                <br/>
+                    <div className="canelloBox">
+                    <iframe className="canelloAlvarez" width="560" height="315" src="https://www.youtube.com/embed/hoYol_EX9Jc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h2>Canelo Àlvarez Goes Sneaker Shopping With Complex</h2>
                 </div>
+                <div className="jadaKissBox">
+                    <iframe className="jadaKiss" width="560" height="315" src="https://www.youtube.com/embed/OSz9kkw2oic?start=0&end=220" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h2>Jadakiss Shows Off More Than $60,000 Of Rare Sneakers on Complex Closets</h2>
+                </div>
+                </div>
+                <ShoeCarousel/>
+                <p className="sliderWriter"><span className="articleBy">SNEAKERS |</span>BY MATT WELTY, BEN FELDERSTEIN, RILEY JONES, ZAC DUBASIK, MIKE DESTEFANO</p>
+                <a href="https://www.complex.com/sneakers/2019/12/best-sneaker-collaborations-of-2019/"><p className="sliderArticle">The Best Sneaker Collaborations of 2019</p></a>
                 <Footer />
 
             </div>

@@ -1,3 +1,6 @@
+body{
+    margin-bottom: 250px;
+}
 .headArticle{
     width: 100%;
     display: flex;
@@ -139,7 +142,6 @@
     font-weight: bold;
 }
 
-
 .adChoice{
     height:15px;
     width: 15px;
@@ -152,5 +154,155 @@
 .videoComplex{
     padding-top: 5px;
     display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
     justify-content: space-evenly
+}
+
+.canelloBox{
+    flex-direction: row;
+    padding-right: 5px;
+}
+
+ .canelloAlvarez{
+
+} 
+.jadaKissBox{
+    padding-left: 150px;
+}
+
+.sliderArticle{
+    padding-bottom: 150px;
+}
+.sliderWriter{
+    width: 300px;
+}
+
+
+@media (max-width: 800px){
+    .kithSneaker{
+        width: 540px;
+    }
+    .georgiaTech{
+        width: 200px;
+        height: 300px;
+    }
+    .left{
+        width: 500px;
+    }
+
+    .right{
+        width: 200px;
+        margin-left: 50px;
+    }
+
+    .box{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 800px;
+        height: 1250px;
+    }
+    .blueBox{
+        width: 195px;
+        height: 300px;
+    }
+    .blueShoe{
+        width: 195px;
+    }
+
+    .multiBox{
+        width: 195px;
+        height: 300px;
+        padding-right: 2px;
+    }
+    .multiShoe{
+        width: 195px;
+    }
+
+    .redBox{
+        width: 195px;
+        height: 300px;
+        padding-right: 2px;
+    }
+    .redShoe{
+        width: 195px;
+    }
+
+    .blackBox{
+        width: 195px;
+        height: 300px;
+    }
+    .blackShoe{
+        width: 195px;
+    }
+
+    .greenBox{
+        width: 195px;
+        height: 300px;
+    }
+    .greenShoe{
+        width: 195px;
+    }
+
+    .whiteBlackRedBox{
+        width: 195px;
+        height: 300px;
+    }
+    .whiteBlackRedShoe{
+        width: 195px;
+    }
+
+    .whiteRedBox{
+        width: 195px;
+        height: 300px;
+    }
+    .whiteRedShoe{
+        width: 195px;
+
+    }
+
+    .orangeBrownBox{
+        width: 195px;
+        height: 300px;
+    }
+    .orangeBrownShoe{
+        width: 195px;
+
+    }
+
+    .brownBox{
+        width: 300px;
+
+    }
+    .brownShoe{
+        height: 400px;
+        width: 300px;
+
+    }
+    .gravityBox{
+        margin-left: 130px;
+        width: 300px;
+        height: 400px;
+        line-height: 1;
+    }
+    .gravityShoe{
+        width: 300px;
+    }
+    .videoComplex{
+        flex-direction: column;
+    }
+    
+    .canelloAlvarez{
+        width: 750px;
+        height: 400px;
+        padding-bottom: 10px;
+    }
+    .jadaKiss{
+        width: 750px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 400px){
+
 }
