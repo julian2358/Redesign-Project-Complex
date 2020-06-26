@@ -8,7 +8,7 @@ import Stats from './stats.js';
 import { Button, Divider, Form, Grid, Segment } from 'semantic-ui-react'
 import Music from './musicexplore.js';
 import Sports from './discover.js';
-
+import { useState } from 'react';
 const end = {
     border: '3px solid black',
   }
@@ -18,7 +18,7 @@ const theme = createMuiTheme({
         light: '#757ce8',
         main: '#3f50b5',
         dark: '#002884',
-        contrastText: '#fff',
+        contrastText: '#f   ff',
       },
       secondary: {
         light: '#ff7961',
