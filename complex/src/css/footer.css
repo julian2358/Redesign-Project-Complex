@@ -86,6 +86,9 @@ html,body {
 }
 
 @media(max-width: 400px){
+    .mainFooter{
+        height: 80px;
+    }
     .footerForm{
         display: none;
       
