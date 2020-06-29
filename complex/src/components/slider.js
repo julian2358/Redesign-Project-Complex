@@ -1,40 +1,45 @@
+
 import React from 'react';
 import Slider from "react-slick";
-import "../css/shoeSlider.css";
+import '../css/slider.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 const photos = [
     {
         name: "Photo 1",
-        url: "/imgs/cactusVapor.jpeg",
-        alt: "Nike Cactus Vapor"
+        url: "/imgs/jcole.jpg",
+        alt: "studio"
     },
     {
         name: "Photo 2",
-        url: "/imgs/clotAir.jpeg",
-        alt: "Nike Air Clot"
+        url: "/imgs/nas.jpg",
+        alt: "roddy rich"
     },
     {
         name: "Photo 3",
-        url: "/imgs/travisScottAir.jpeg",
-        alt: "Nike Air Travis Scott"
+        url: "/imgs/kanye.jpg",
+        alt: "astroworld"
     },
     {
         name: "Photo 4",
-        url: "/imgs/nikeAirOff.jpeg",
-        alt: "Nike Air Off white"
+        url: "/imgs/travisscott.jpg",
+        alt: "Nike Air Jordan Retros Shoe"
+    },
+    {
+        name: "Photo 5",
+        url: "/imgs/Beyonce.jpg",
+        alt: "Shoe Wall"
     }
-    
 ]
-class ShoeCarousel extends React.Component {
+class Carousel extends React.Component {
     render() {
         const settings = {
             autoplay: true,
-            dots: false,
+            dots: true,
             infinite: true,
             speed: 200,
             slidesToShow: 1,
-            arrows: false,
+            arrows: true,
             slidesToScroll: 1,
             className: "slides"
            }
@@ -48,11 +53,10 @@ class ShoeCarousel extends React.Component {
                     </div>
                 )
             })}
-            
-
         </Slider>
         </div>
           )
         }
 }
-export default ShoeCarousel;
+
+export default Carousel;
