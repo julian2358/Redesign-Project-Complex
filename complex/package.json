@@ -1,8 +1,12 @@
 {
   "name": "complex",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "server.js",
   "dependencies": {
+    "axios": "^0.19.2",
+    "core-util-is": "^1.0.2",
+    "express": "^4.17.1",
     "@emotion/core": "^10.0.28",
     "@material-ui/core": "^4.10.2",
     "@material-ui/icons": "^4.9.1",
@@ -11,12 +15,10 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "@types/mysql": "^2.15.14",
-    "axios": "^0.19.2",
     "bootstrap": "^4.5.0",
     "bootstrap-3-card": "^0.2.0",
     "cors": "^2.8.5",
     "emotion": "^10.0.27",
-    "express": "^4.17.1",
     "jsonplaceholder": "^0.3.3",
     "mdbootstrap": "^4.19.0",
     "mysql": "^2.18.1",
@@ -34,25 +36,13 @@
     "semantic-ui-react": "^0.88.2",
     "slick-carousel": "^1.8.1"
   },
+  "devDependencies": {},
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "node-env-run server --exec nodemon",
+    "dev": "run-p server start"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "author": "",
+  "license": "ISC"
 }
