@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import { Button, Icon, Modal } from 'semantic-ui-react'
 import { Embed } from 'semantic-ui-react'
 import { Comment, Form, Header } from 'semantic-ui-react';
-import Comments from './comments.js'
+import Comments from './comments.js';
+import List from './list.js';
 import { Segment } from 'semantic-ui-react'
 const musichead = {
     fontSize: '30px',
@@ -46,9 +47,9 @@ class NestedModal extends Component {
         }
         t
       >
-        <Modal.Header>Song Of The Day</Modal.Header>
+        <Modal.Header>Charts</Modal.Header>
         <Modal.Content>
-          <p>That's everything!</p>
+          <List />
         </Modal.Content>
         <Modal.Actions>
           <Button icon='check' content='All Done' onClick={this.close} />
@@ -64,7 +65,7 @@ const ModalExampleMultiple = () => (
     <Modal.Content>
       <div className='image'>
         <h1 id='vid-header'>Video Of The Day</h1>
-        <hr style={seperate}/ >
+        <hr style={seperate } />
       <Embed
     id='VDGysJGNoI'
     placeholder='https://pmcvariety.files.wordpress.com/2020/06/lil-baby-the-bigger-picture-clean-no-text-copy-e1591971958390.jpg'
@@ -74,7 +75,7 @@ const ModalExampleMultiple = () => (
       <Modal.Description>
     <Comments />
       </Modal.Description>
-      <hr style={end}/ >
+      <hr style={end} />
     </Modal.Content>
     </Segment>
     <Modal.Actions>

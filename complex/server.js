@@ -25,25 +25,26 @@ var options = {
   };
   
 
-  
-app.get('/api/getBillboard'), (req, res) => {
-    request(options, function (error, response, body) {
-        if (error) throw new Error(error);
-    
-        res.send(body);
+  app.get('/api/hello', (req, res) => {
+    res.send({ express: 'Hello From Express' });
+  });
+
+
+
+    app.get('/api/getBillboard', (req, res) => {
+        request(options, function (error, response, body) {
+            if (error) throw new Error(error);
+            var parsedBody = JSON.parse(body);
+            console.log(parsedBody);
+            res.send(parsedBody);
+        })
     });
-};
 
 
 
-// Handles any requests that don't match the ones above
-app.get('*', (req,res) =>{
-    res.sendFile(path.join(__dirname+'/client/build/index.html'));
-});
 
 
-
-const port = process.env.PORT || 4420;
+const port = process.env.PORT || 4920;
 app.listen(port);
 
 console.log('App is listening on port ' + port);
