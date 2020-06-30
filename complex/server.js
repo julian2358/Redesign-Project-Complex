@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-
+const request = require("request");
 const app = express();
 
 // Serve the static files from the React app
@@ -13,6 +13,29 @@ app.get('/api/getList', (req,res) => {
     console.log('Sent list of items');
 });
 
+var options = {
+    method: 'GET',
+    url: 'https://billboard-api2.p.rapidapi.com/hot-100',
+    qs: {date: '2019-05-11', range: '1-10'},
+    headers: {
+      'x-rapidapi-host': 'billboard-api2.p.rapidapi.com',
+      'x-rapidapi-key': 'b6be7d093bmsh4e847c4f9776906p118f6cjsn17cea4958cd0',
+      useQueryString: true
+    }
+  };
+  
+
+  
+app.get('/api/getBillboard'), (req, res) => {
+    request(options, function (error, response, body) {
+        if (error) throw new Error(error);
+    
+        res.send(body);
+    });
+};
+
+
+
 // Handles any requests that don't match the ones above
 app.get('*', (req,res) =>{
     res.sendFile(path.join(__dirname+'/client/build/index.html'));
@@ -20,8 +43,7 @@ app.get('*', (req,res) =>{
 
 
 
-
-const port = process.env.PORT || 4220;
+const port = process.env.PORT || 4420;
 app.listen(port);
 
 console.log('App is listening on port ' + port);

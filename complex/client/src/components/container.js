@@ -8,7 +8,7 @@ import Shoes from './shoes.js';
 import Discover from './discover.js';
 import Music from './musicexplore.js'
 import Contact from './contact.js';
-import List from './list.js';
+import List from './list.js'
 // react routing 
 //do not touch
 
@@ -24,9 +24,9 @@ function Container(location) {
           <Route exact path="/" component={Home} />
           <Route exact path="/music" component={Music} />
           <Route exact path="/contact" component={Contact} />
+          {/* <Route exact path="/contact" component={Footer} /> */}
           <Route exact path="/shoes" component={Shoes} />
-          <Route exact path="/clothes" component={List} />
-          
+          <Route exact path="/contact" component={Contact} />
         </Switch>
        
 

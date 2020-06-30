@@ -1,8 +1,7 @@
 import React from 'react';
 import '../css/shoes.css';
-import Nav from './nav';
-import ShoeCarousel from './shoeSlider';
-import Footer from './footer';
+import Nav from '../components/nav';
+import Footer from '../components/footer';
 class Shoes extends React.Component{
     render(){
         return(
@@ -81,17 +80,15 @@ class Shoes extends React.Component{
                 </div>
                 <div className="jadaKissBox">
                     <iframe className="jadaKiss" width="560" height="315" src="https://www.youtube.com/embed/OSz9kkw2oic?start=0&end=220" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h2>Jadakiss Shows Off More Than $60,000 Of Rare Sneakers on Complex Closets</h2>
+                    <h2>Jadakiss Shows Off More Than $60,000 of Rare Sneakers on Complex Closets</h2>
                 </div>
                 </div>
+                <div className="bottomPage">
                 <div className="ronaldoBox">
                     <iframe className="cristianoRon" width="560" height="315" src="https://www.youtube.com/embed/0jvt8Js0OU0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <h2>Cristiano Ronaldo Goes Sneaker Shopping With Complex</h2>
-                </div>
-                    <ShoeCarousel/>
-                    <p className="sliderWriter"><span className="articleBy">SNEAKERS |</span>BY MATT WELTY, BEN FELDERSTEIN, RILEY JONES, ZAC DUBASIK, MIKE DESTEFANO</p>
-                    <a href="https://www.complex.com/sneakers/2019/12/best-sneaker-collaborations-of-2019/"><p className="sliderArticle">The Best Sneaker Collaborations of 2019</p></a>
-                
+                    </div>
+                    </div>
                 <Footer />
 
             </div>

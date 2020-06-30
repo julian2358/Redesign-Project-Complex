@@ -6,7 +6,7 @@ import Top from './topstories.js';
 import { createMuiTheme } from '@material-ui/core/styles';
 import Stats from './stats.js';
 import { Button, Divider, Form, Grid, Segment } from 'semantic-ui-react'
-import Music from './musicexplore.js';
+import Music from './musicmodal.js';
 import Sports from './discover.js';
 import { useState } from 'react';
 const end = {

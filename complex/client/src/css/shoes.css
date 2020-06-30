@@ -133,6 +133,7 @@ body{
     width: 300px;
     line-height: 1;
 }
+
 .gravityShoe{
     width: 300px;
     height: 400px
@@ -166,17 +167,27 @@ body{
     padding-left: 200px;
 }
 
+.ronaldoBox{
+    padding-top: 5px;
+}
 .cristianoRon{
     padding-left: 5px;
 }
 
 .sliderArticle{
-    padding-bottom: 150px;
+    padding-left: 150px;
+    height: 350px;
     display: flex;
     flex-direction: column;
+
 }
 .sliderWriter{
     width: 300px;
+}
+.bottomPage{
+    padding-top: 5px;
+    display: flex;
+    padding-bottom: 150px;
 }
 
 
@@ -301,12 +312,197 @@ body{
         height: 400px;
         padding-bottom: 10px;
     }
+    .jadaKissBox{
+        padding-left: 5px;
+    }
     .jadaKiss{
         width: 750px;
         height: 400px;
     }
+
+    .cristianoRon{
+        width: 750px;
+        height: 400px;
+    }
+    .bottomPage{
+        padding-top: 5px;
+        display: flex;
+        padding-bottom: 150px;
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width: 400px){
+    /* p{
+        font-size: 12px;
+    } */
+    #main-header{
+        font-size: 35px;
+    }
+    .kithSneaker{
+        width: 235px;
+        height: 180px;
+    }
+    .left{
+        font-size: 12px;
+        width: 225px;
+    }
+    .georgiaTech{
+        /* padding-right: 20px; */
+        width: 110px;
+        height: 180px;
+    }
 
+    .right{
+        font-size: 9px;
+        width: 110px;
+        /* padding-right: 20px; */
+        /* margin-left: 50px; */
+    }
+
+    .box{
+        font-size: 9px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 400px;
+        height: 650px;
+    }
+    .blueBox{
+        width: 95px;
+        height: 155px;
+    }
+    .blueShoe{
+        height: 75px;
+        width: 100px;
+    }
+
+    .multiBox{
+        width: 95px;
+        height: 160px;
+        padding-right: 2px;
+    }
+    .multiShoe{
+        height: 75px;
+        width: 100px;
+    }
+
+    .redBox{
+        width: 95px;
+        height: 155px;
+        /* padding-right: 2px; */
+    }
+    .redShoe{
+        height: 75px;
+        width: 100px;
+    }
+
+    .blackBox{
+        width: 95px;
+        height: 155px;
+    }
+    .blackShoe{
+        height: 75px;
+        width: 100px;
+    }
+
+    .greenBox{
+        width: 95px;
+        height: 155px;
+    }
+    .greenShoe{
+        height: 75px;
+        width: 100px;
+    }
+
+    .whiteBlackRedBox{
+        width: 95px;
+        height: 155px;
+        padding-right: 2px;
+    }
+    .whiteBlackRedShoe{
+        height: 75px;
+        width: 100px;
+    }
+
+    .whiteRedBox{
+        width: 95px;
+        height: 155px;
+        padding-right: 2px;
+    }
+    .whiteRedShoe{
+        height: 75px;
+        width: 100px;
+    }
+
+    .orangeBrownBox{
+        width: 95px;
+        height: 155px;
+    }
+    .orangeBrownShoe{
+        height: 75px;
+        width: 100px;
+
+    }
+
+    .brownBox{
+        width: 145px;
+
+    }
+    .brownShoe{
+        height: 175px;
+        width: 150px;
+
+    }
+    .gravityBox{
+        margin-left: 15px;
+        width: 200px;
+        height: 200px;
+        line-height: 1;
+    }
+    .gravityShoe{
+        width: 200px;
+        height: 250px;
+    }
+    .videoComplex{
+        flex-direction: column;
+    }
+    
+    .canelloAlvarez{
+        width: 395px;
+        height: 250px;
+        padding-bottom: 10px;
+    }
+    .jadaKissBox{
+        padding-left: 5px;
+    }
+    .jadaKiss{
+        width: 395px;
+        height: 250px;
+    }
+
+    .ronaldoBox{
+        padding-left: 5px;
+    }
+
+    .cristianoRon{
+        width: 395px;
+        height: 250px;
+    }
+    .sliderArticle{
+        font-size: 9px;
+        width: 250px;
+        height: 150px;
+        /* display: flex;
+        flex-direction: column; */
+    
+    }
+    .sliderWriter{
+        width: 150px;
+    }
+    .bottomPage{
+        padding-top: 5px;
+        display: flex;
+        padding-bottom: 150px;
+        flex-wrap: wrap;
+    }
 }
