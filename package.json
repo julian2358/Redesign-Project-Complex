@@ -4,7 +4,7 @@
  "description": "",
  "main": "index.js",
  "scripts": {
-   
+"concurrently": "concurrently",
   "client-install": "npm install --prefix client",
   "start": "node server/server.js",
   "client": "cd client && npm start",
