@@ -91,8 +91,8 @@ class Shoes extends React.Component{
                     <h2>Gunna - Skybox</h2>
                 </div>
                 </div>
-                <div className="ronaldoBox">
-                    <iframe className="cristianoRon" width="560" height="315" src="https://www.youtube.com/embed/0jz0GAFNNIo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div className="drakeBox">
+                    <iframe className="dravIframe" width="560" height="315" src="https://www.youtube.com/embed/0jz0GAFNNIo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <h2> Drake - When to Say When & Chicago Freestyle</h2>
                 </div>
                     {/* <Carousel /> */}
