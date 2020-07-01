@@ -38,10 +38,12 @@
   },
   "devDependencies": {},
   "scripts": {
+
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "server": "node-env-run server --exec nodemon",
-    "dev": "run-p server start"
+    "dev": "run-p server start",
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "author": "",
   "license": "ISC"
