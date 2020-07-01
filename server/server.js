@@ -15,7 +15,7 @@ const app = express();
 
 
 // Serve the static files from the React app
-app.use(express.static(path.join(__dirname, 'client/build')));
+app.use(express.static(path.join(__dirname, '../client/build')))
 
 
 // An api endpoint that returns a short list of items
@@ -53,7 +53,9 @@ var options = {
     });
 
 
-
+    app.get('*', (req, res) => {
+      res.sendFile(path.join(__dirname + '/../client/build/index.html'))
+    })
 
 
 const port = process.env.PORT || 4920;
